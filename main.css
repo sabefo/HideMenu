@@ -1,0 +1,67 @@
+.container {
+  margin: 0 auto;  
+  /*width: 720px;*/
+  position: relative;
+}
+
+.footer {
+	position: relative;
+	margin-left: 16%;		
+}
+
+.open_close {
+	width: 100%;
+	background-color: black;
+	position: fixed;
+	z-index: 100;
+
+}
+
+.open_close ul {
+	color: white;
+	margin: 0;
+}
+
+header h1 {
+	/*position: relative;*/
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	padding-top: 5%;
+}
+
+nav {
+	position: fixed;
+	background: #bdbdbd;
+	height: 100%;
+	width: 15%;
+	margin-top: 4%;
+}
+
+nav ul {
+	margin-top: 0px;
+}
+
+ul {
+	padding: 10px;
+	padding-top: 0px;
+}
+
+li {
+	list-style-type: none;
+	border-bottom: solid 2px gray;
+	padding-top: 20px;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.content {
+	position: relative;
+	display: block;
+	margin-left: 16%;
+	/*margin-top: 50px;*/
+}
